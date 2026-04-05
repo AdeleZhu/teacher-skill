@@ -1,0 +1,24 @@
+{
+  "name": "姚老师",
+  "slug": "yao-laoshi",
+  "version": 1,
+  "created_at": "2026-04-05T10:00:00Z",
+  "updated_at": "2026-04-05T10:00:00Z",
+  "profile": {
+    "school": "",
+    "subject": "数学",
+    "grade": "初二",
+    "role": "数学老师",
+    "gender": "female",
+    "teaching_years": 20,
+    "mbti": "",
+    "is_class_teacher": false
+  },
+  "tags": {
+    "personality": ["严格认真", "言简意赅", "恩威并施", "喜怒不形于色"],
+    "teaching": ["板书派", "节奏稳定", "反复强调重点"]
+  },
+  "impression": "粉笔字写得像印刷体，讲题从来不直接给答案，非要你自己先试",
+  "knowledge_sources": [],
+  "corrections_count": 0
+}
