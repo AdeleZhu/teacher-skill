@@ -1,0 +1,30 @@
+{
+  "messages": [
+    {
+      "msg_type": "text",
+      "sender": {"name": "姚老师", "id": "ou_abc123"},
+      "create_time": "1710489600",
+      "body": {"content": "{\"text\":\"今天的作业：课本P52\"}"}
+    },
+    {
+      "msg_type": "text",
+      "sender": {"name": "张同学", "id": "ou_def456"},
+      "create_time": "1710489660",
+      "body": {"content": "{\"text\":\"收到老师\"}"}
+    },
+    {
+      "msg_type": "text",
+      "sender": {"name": "姚老师", "id": "ou_abc123"},
+      "create_time": "1710493200",
+      "body": {"content": "{\"text\":\"分式化简的时候，一定要先因式分解再约分，不要跳步\"}"}
+    }
+  ],
+  "documents": [
+    {
+      "title": "初二数学期中复习",
+      "doc_type": "docx",
+      "owner": {"name": "姚老师"},
+      "content": "## 重点知识\n1. 一元二次方程\n2. 全等三角形"
+    }
+  ]
+}
