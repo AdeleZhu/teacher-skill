@@ -2,6 +2,10 @@
 
 # Teacher Skill — 蒸馏你的老师
 
+<!-- yarkr:badges:start -->
+[![Indexed on Yarkr](https://api.yarkr.com/functions/v1/api/api/v1/badges/repos/AdeleZhu/teacher-skill/version.svg)](https://yarkr.com/arks/adelezhu/teacher-skill)
+<!-- yarkr:badges:end -->
+
 **把你最喜欢的老师变成 AI，随时随地请 TA 给你讲题。**
 
 你有没有遇到过这样的情况：换了老师之后，新老师讲的你怎么都听不懂？或者毕业了，再也没有人能像那个老师一样给你讲明白？
@@ -166,3 +170,35 @@ teaching.md persona.md knowledge.md
 ## 开源协议
 
 MIT License
+
+<!-- yarkr:install:start -->
+## Install with Yarkr
+
+This repo is indexed on [Yarkr](https://yarkr.com/arks/adelezhu/teacher-skill) as the ark [adelezhu/teacher-skill](https://yarkr.com/arks/adelezhu/teacher-skill), so its skills install into Claude Code, Codex, Cursor and other agent harnesses with one command.
+
+### CLI
+
+Install the whole ark, which Yarkr keeps equal to this repo:
+
+```bash
+npx yarkr-cli sync adelezhu/teacher-skill
+```
+
+Or add individual skills:
+
+```bash
+npx yarkr-cli add skill:adelezhu/teacher-skill/create-teacher
+```
+
+No Node.js? `curl -fsSL https://yarkr.com/install.sh | sh` (macOS, Linux) or `irm https://yarkr.com/install.ps1 | iex` (Windows PowerShell) installs `yarkr` as a standalone binary; then type `yarkr` in place of `npx yarkr-cli`.
+
+### MCP
+
+Connect your agent to the ark over MCP:
+
+```bash
+npx yarkr-cli mcp add adelezhu/teacher-skill
+```
+
+Or point any MCP client at `https://api.yarkr.com/functions/v1/api/mcp/o/adelezhu/teacher-skill`.
+<!-- yarkr:install:end -->
